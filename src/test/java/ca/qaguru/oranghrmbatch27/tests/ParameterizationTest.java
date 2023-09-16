@@ -9,6 +9,6 @@ public class ParameterizationTest extends TestBase {
     public void sampleTest(String username, String password){
         System.out.println("Username : "+ username + " Password: "+ password);
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(username, password,false,"Not matched");
+        loginPage.login(username, password,false,"Invalid credentials");
     }
 }
