@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite with Login and parameterization">
+    <test verbose="2" preserve-order="true" name="Set1 ">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+
+            <class name="ca.qaguru.oranghrmbatch27.tests.LoginTests">
+
+            </class>
+
+        </classes>
+    </test>
+    <test name="Set2 "  >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="ca.qaguru.oranghrmbatch27.tests.ParameterizationTest" />
+
+        </classes>
+    </test>
+</suite>

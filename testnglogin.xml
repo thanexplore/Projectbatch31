@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite1">
+    <test verbose="2" preserve-order="true" name="Set 1 Login">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+
+            <class name="ca.qaguru.oranghrmbatch27.tests.LoginTests">
+
+            </class>
+
+
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Set 2 parametrization">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+        <class name="ca.qaguru.oranghrmbatch27.tests.ParameterizationTest">
+
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Set Education">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="ca.qaguru.oranghrmbatch27.tests.EducationTests">
+
+            </class>
+        </classes>
+    </test>
+</suite>
+
