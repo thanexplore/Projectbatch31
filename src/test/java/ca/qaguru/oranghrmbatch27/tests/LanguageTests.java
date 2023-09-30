@@ -19,7 +19,7 @@ public class LanguageTests extends TestBase{
         HeaderPage headerPage = new HeaderPage(driver);
         headerPage.selectMenu(MenuOptions.LANGUAGES);
         LanguagePage languagePage=new LanguagePage(driver);
-        languagePage.saveNewLanguage("");
+        languagePage.saveNewLanguage("Malayalam");
         String uuid= UUID.randomUUID().toString();
         languagePage.saveNewLanguage("Malayalam" + uuid);
     }
